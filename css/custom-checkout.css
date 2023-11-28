@@ -1,0 +1,205 @@
+.section-inside{
+    background-color: white;
+    border-radius: 8px;
+}
+
+.point-title-text{
+    font-size: 16px;
+
+}
+.chekout-label{
+    font-size: 14px;
+}
+
+
+.custom-radio{
+    border: 1px solid rgba(192, 192, 192, 0.3);
+    border-radius: 6px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+
+.chekout-radio-h6{
+    font-size: 14px;
+}
+.chekout-radio-p{
+    font-size: 12px;
+}
+.btn-custom {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+}
+#but1{
+    background-color: #9eab9f;
+}
+
+
+
+
+/* Chek Right */
+
+#checkout-h2{
+    font-size: 18px;
+}
+
+
+#right-chekout-inside{
+    margin-left: 7%;
+    margin-top: 5%;
+}
+#chekcout-order{
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    
+    border-radius: 6px;
+}
+
+
+
+
+.custom-container {
+    height: 300px;
+    overflow-y: scroll;
+    
+    padding: 10px;
+}
+
+.item {
+   
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.item img {
+    width: 30px; 
+    margin-right: 10px;
+}
+
+.item p {
+    margin: 0;
+}
+.item-details{
+    min-width: 160px;
+}
+.custom-button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.custom-total {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.item-buttons{
+    border: 1px solid rgba(192, 192, 192, 0.3);
+    display: flex;
+    border-radius: 6px;
+    margin-top: 20%;
+    
+    height: 30%;
+    justify-content: flex-end; 
+    align-items: center; 
+    
+}
+.item-total{
+    color: black;
+    font-size: 16px;
+}
+.item-price{
+    font-size: 12px;
+}
+.item-name{
+    font-size: 14px;
+    color: #374151;
+}
+
+.delete-button {
+    
+    display: flex;
+    margin-top: 20%;
+    margin-left: 20%;
+    height: 30%;
+    justify-content: flex-end; 
+    align-items: center; 
+}
+
+
+.myimg{
+    display: flex;
+    align-items: center;
+    
+}
+
+.custom-button1{
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+.myApplyButton{
+    background-color: white;
+    
+    width:100%;
+    text-align: center;
+    
+}
+
+
+.my-text-field,
+.my-button {
+    height: 50px; 
+}
+
+
+#customStyleApply{
+    height: 100%;
+    padding:10px;
+}
+
+#shipping-cost{
+    display: flex;
+}
+
+#discount{
+    color:#FB923C;
+}
+
+.information-cost{
+    height: 200px;
+    margin-bottom: 100px;
+}
+#full-total {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+input[type="radio"]{
+    background-color: #4CAF50;
+    font-size: 30px;
+}
+
+
+
+
+
+@media (min-width: 700px) and (max-width: 992px) {
+    .my-button {
+       
+       white-space: nowrap;
+        text-align: center;
+        width: 100px;
+        padding-left: 15px;
+
+   }
+}

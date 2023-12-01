@@ -1,0 +1,323 @@
+.burger{
+  display: none;
+}
+.item-menu {
+  display: flex;
+  width: 100%;
+  align-items: center;
+   /* Замініть start на space-between */
+}
+
+.custom-menu{
+  
+  border-radius: 6px;
+}
+.custom-h6{
+  font-size: 12px;
+
+}
+
+.myA{
+  display: block;
+  color: #000;
+}
+
+.myA {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.myA:hover,
+.myA:focus {
+  color: green;
+}
+
+.myA::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 4px;
+  height: 20px;
+  background-color: green;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  left: -4%;
+}
+
+.myA:hover::before,
+.myA:focus::before {
+  opacity: 1;
+}
+
+
+.name{
+  color: #000;
+  font-weight: 600;
+}
+.myprofile{
+  
+
+}
+#text-edit-but{
+  white-space: pre;
+}
+
+#profile-title{
+  font-size: 25px;
+  font-weight: 600;
+}
+.edit-button{
+  text-align: end;
+  padding: 0;
+}
+.custom-menu{
+  width: 314px;
+}
+.balance{
+  font-size: 14px;
+}
+.balance span{
+  color: #119744;
+}
+
+.mode-user{
+  font-size: 14px;
+  letter-spacing: 3px; 
+  text-transform: uppercase;
+}
+
+.profile-item h6{
+  color: #119744;
+  font-size: 20px;
+  text-align: center;
+}
+
+.profile-item p{
+  text-align: center;
+  font-size: 12px;
+}
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .myA::before {
+    left: -5%;
+  }
+  
+}
+
+/* @media only screen and (min-width: 700px) and (max-width: 1199px) {
+  .my-menu{
+    display: none;
+  }
+  
+} */
+@media (max-width: 1199px) {
+  .my-menu{
+    display: none;
+  }
+  .burger{
+    display: block;
+    text-align: end;
+  }
+  .edit-button{
+    margin-top: 20px;
+    text-align: start;
+  }
+}
+
+
+
+.card-number{
+  text-align: end;
+}
+
+.info-item p{
+  font-size: 12px;
+  
+}
+
+
+.info-item span{
+  font-size: 14px;
+  color: #2b3445;
+}
+
+.right-side{
+  padding-left: 30px;
+}
+.smal-profile{
+  padding-top: 30px;
+}
+
+
+
+
+
+.custom-modal {
+  display: none;
+  position: fixed;
+  z-index: 22;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5); /* Півпрозорий чорний фон */
+
+  padding-left: 0;
+}
+
+.custom-modal-content {
+  background-color: #fff; /* Білий фон */
+  padding: 20px;
+  border: 1px solid #888;
+  width: calc(100% - 60%); /* Змінив ширину, щоб врахувати відступи зліва і справа */
+  text-align: left; /* Вирівнювання тексту зліва */
+  height: 100%;
+}
+
+.custom-close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.custom-close:hover,
+.custom-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+.my-modal-hover{
+  display: block;
+  color: #000;
+}
+
+.my-modal-hover {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.my-modal-hover:hover,
+.my-modal-hover:focus {
+  color: green;
+}
+
+.my-modal-hover::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 4px;
+  height: 20px;
+  background-color: green;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  left: -6.5%;
+}
+
+.my-modal-hover:hover::before,
+.my-modal-hover:focus::before {
+  opacity: 1;
+}
+@media (max-width: 777px){
+.custom-modal-content {
+  width: calc(100% - 45%);}
+}
+
+@media (max-width: 576px){
+.col-less {
+    flex: 0 0 auto;
+    width: 50%;
+    
+}
+.custom-modal-content {
+  width: calc(100% - 15%);}
+}
+
+@media (max-width: 320px){
+  .col-tosmall-12 {
+      flex: 0 0 auto;
+      width: 100%;
+      align-items: center;
+      text-align: center;
+  }
+  .col-tosmall-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .custom-modal-content {
+    width: calc(100% - 0%);}
+}
+
+.mode-user{
+    text-align: center;
+}
+
+
+
+.edit-link {
+  display: inline-block;
+  position: relative;
+  
+}
+
+.edit-link:hover::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Центрирование по осям X и Y */
+  width: 140%;
+  height: 140%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.paginator{
+  display: flex;
+  justify-content: center;
+}
+
+
+.paginator-a{
+  margin-left: 1%;
+  margin-right: 1%;
+  border: 1px solid #119744 ;
+  border-radius: 100px;
+  text-decoration:none;
+  color: #119744;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.paginator-a:hover{
+  background-color: rgb(2, 119, 27);
+  opacity: 0.7;
+  color: #ffffff ;
+}
+
+.item-address{
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-nav{
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}

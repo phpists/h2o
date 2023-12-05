@@ -104,8 +104,6 @@
   font-size: 12px;
 }
 
-
-
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .myA::before {
     left: -5%;
@@ -113,12 +111,6 @@
   
 }
 
-/* @media only screen and (min-width: 700px) and (max-width: 1199px) {
-  .my-menu{
-    display: none;
-  }
-  
-} */
 @media (max-width: 1199px) {
   .my-menu{
     display: none;
@@ -132,8 +124,6 @@
     text-align: start;
   }
 }
-
-
 
 .card-number{
   text-align: end;

@@ -73,6 +73,10 @@
   text-align: end;
   padding: 0;
 }
+.save-button{
+  text-align: start;
+  padding: 0;
+}
 .custom-menu{
   width: 314px;
 }
@@ -271,6 +275,11 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-right: 10px;
 }
+.full{
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
 
 
 
@@ -306,4 +315,35 @@
 .info-user{
   padding-top: 17px;
   padding-bottom: 15px;
+}
+
+
+.inputfile {
+    display: none;
+}
+
+.file-label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.file-label svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.block-1{
+  max-width: 80px;
+  position: relative;
+}
+
+.block-2{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  background-color: #e9e9ef;
+  border-radius: 100px;
 }

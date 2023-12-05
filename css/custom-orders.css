@@ -375,15 +375,26 @@ a{
   @media (max-width: 320px){
     .col-tosmall-12 {
         flex: 0 0 auto;
-        width: 10%;
+        width: 100%;
         align-items: center;
-        text-align: start;
+        text-align: center;
+        text-align: right;
     }
     .col-tosmall-6 {
       flex: 0 0 auto;
-      width: 70%;
+      width: 50%;
+      text-align: left;
+    }
+    .col-tosmall-1 {
+      flex: 0 0 auto;
+      width: 8.33%;
+  
+    }
+    .col-tosmall-10 {
+      flex: 0 0 auto;
+      width:  80.33%;
+      text-align: left;
     }
     .custom-modal-content {
       width: calc(100% - 0%);}
-  }
-  
+}

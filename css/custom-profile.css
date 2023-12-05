@@ -281,37 +281,6 @@
 }
 
 
-
-
-@media (max-width: 576px){
-  .col-less {
-      flex: 0 0 auto;
-      width: 50%;
-      
-  }
-  .full-info{
-    width: 104%;
-  }
-  .custom-modal-content {
-    width: calc(100% - 15%);}
-  }
-  
-  @media (max-width: 320px){
-    .col-tosmall-12 {
-        flex: 0 0 auto;
-        width: 100%;
-        align-items: center;
-        text-align: center;
-    }
-    .col-tosmall-6 {
-      flex: 0 0 auto;
-      width: 50%;
-    }
-    .custom-modal-content {
-      width: calc(100% - 0%);}
-}
-
-
 .info-user{
   padding-top: 17px;
   padding-bottom: 15px;
@@ -347,3 +316,45 @@
   background-color: #e9e9ef;
   border-radius: 100px;
 }
+
+
+@media (max-width: 576px){
+  .col-less {
+      flex: 0 0 auto;
+      width: 50%;
+      
+  }
+  .full-info{
+    width: 104%;
+  }
+  .custom-modal-content {
+    width: calc(100% - 15%);}
+  }
+  
+@media (max-width: 320px){
+    .col-tosmall-12 {
+        flex: 0 0 auto;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        text-align: right;
+    }
+    .col-tosmall-6 {
+      flex: 0 0 auto;
+      width: 50%;
+      text-align: left;
+    }
+    .col-tosmall-1 {
+      flex: 0 0 auto;
+      width: 8.33%;
+  
+    }
+    .col-tosmall-10 {
+      flex: 0 0 auto;
+      width:  80.33%;
+      text-align: left;
+    }
+    .custom-modal-content {
+      width: calc(100% - 0%);}
+}
+
